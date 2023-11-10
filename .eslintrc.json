@@ -4,10 +4,7 @@
   "parserOptions": {
     "parser": "@typescript-eslint/parser"
   },
-  "extends": [
-    "@nuxt/eslint-config",
-    "plugin:prettier/recommended"
-  ],
+  "extends": ["@nuxt/eslint-config", "plugin:prettier/recommended"],
   "plugins": ["prettier"],
   "rules": {
     "vue/multi-word-component-names": "off",
